@@ -1,7 +1,9 @@
 package com.polytech.tp;
 
-public class CoursEnLigne extends CoursDecorator {
-    public CoursEnLigne(ICours cours) {
+public class CoursMagistral extends CoursDecorator {
+    
+
+    public CoursMagistral (ICours cours) {
         //TODO: Implémenter le reste ...
         super(cours);
     }
@@ -9,7 +11,7 @@ public class CoursEnLigne extends CoursDecorator {
     @Override
     public String getDescription() {
         // TODO Auto-generated method stub
-        return cours.getDescription() + " (En ligne)";
+        return cours.getDescription() + " (Magistral)";
     }
 
     @Override
